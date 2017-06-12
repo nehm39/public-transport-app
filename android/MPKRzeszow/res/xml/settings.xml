@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+        <CheckBoxPreference
+        android:key="wifi"
+        android:title="Korzystaj tylko z Wi-Fi"
+        android:defaultValue="false" />
+    
+      		<ListPreference     
+          			android:title="Kolor tła"
+                    android:summary="Wybierz kolor tła w menu."
+                    android:key="backgroundColor"
+                    android:defaultValue="#ffa30000"
+                    android:entries="@array/kolorNazwy"
+                    android:entryValues="@array/kolorWartosci" />
+            <ListPreference     
+          			android:title="Wyświetlanie map"
+                    android:summary="Wybierz sposób wyświetlania map Google."
+                    android:key="mapType"
+                    android:defaultValue="normal"
+                    android:entries="@array/mapaNazwy"
+                    android:entryValues="@array/mapaWartosci" />
+            <Preference 
+                android:title="Ustawienia GPS"
+                android:key="ustawieniaGPS">
+</Preference>
+            <Preference 
+                android:title="Informacje o aplikacji"
+                android:key="informacje">
+</Preference>
+            <Preference 
+                android:title="Wersja aplikacji"
+                android:summary="1.0"
+                android:key="wersja">
+</Preference>
+
+</PreferenceScreen>

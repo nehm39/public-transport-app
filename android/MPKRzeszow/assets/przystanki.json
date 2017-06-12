@@ -1,0 +1,114 @@
+﻿{
+    "przystanki": [
+        {
+            "name": "Bardowskiego 1AB",
+            "lat": "50.041445",
+            "lng": "22.010068"
+        },
+		{
+            "name": "Cieplińskiego 5B",
+            "lat": "50.039102",
+            "lng": "21.997665"
+        },
+        {
+            "name": "Cieplińskiego 6B",
+            "lat": "50.039054",
+            "lng": "21.99832"
+        },
+        {
+            "name": "Głowackiego 10A",
+            "lat": "50.040074",
+            "lng": "22.010647"
+        },
+        {
+            "name": "Lisa Kuli 7B",
+            "lat": "50.035484",
+            "lng": "21.997418"
+        },
+        {
+            "name": "Lisa Kuli 8B",
+            "lat": "50.036766",
+            "lng": "21.997515"
+        },
+        {
+            "name": "Lubelska Szpital 1L",
+            "lat": "50.049554",
+            "lng": "22.001249"
+        },
+        {
+            "name": "Lubelska Szpital 2L",
+            "lat": "50.049589",
+            "lng": "22.000315"
+        },
+        {
+            "name": "Marszałkowska Osiedle 1W",
+            "lat": "50.046509",
+            "lng": "21.999865"
+        },
+        {
+            "name": "Marszałkowska Osiedle 4W",
+            "lat": "50.045565",
+            "lng": "21.999242"
+        },
+        {
+            "name": "Piłsudzkiego Urząd Wojewódzki 3C",
+            "lat": "50.041045",
+            "lng": "22.000723"
+        },
+        {
+            "name": "Piłsudzkiego Urząd Wojewódzki 4C",
+            "lat": "50.040687",
+            "lng": "22.001259"
+        },
+        {
+            "name": "Plac Wolności 1C",
+            "lat": "50.040322",
+            "lng": "22.007364"
+        },
+        {
+            "name": "Plac Wolności 2C",
+            "lat": "50.039736",
+            "lng": "22.008609"
+        },
+		{
+            "name": "Siemieńskiego Dom Studenta 7A",
+            "lat": "50.047102",
+            "lng": "22.011656"
+        },
+        {
+            "name": "Siemieńskiego Urząd Skarbowy 5A",
+            "lat": "50.05014",
+            "lng": "22.011237"
+        },
+        {
+            "name": "Siemieńskiego Urząd Skarbowy 6A",
+            "lat": "50.049616",
+            "lng": "22.011302"
+        },
+        {
+            "name": "Targowa 11A",
+            "lat": "50.037028",
+            "lng": "22.009639"
+        },
+        {
+            "name": "Targowa 12A",
+            "lat": "50.037035",
+            "lng": "22.009971"
+        },
+        {
+            "name": "Trembeckiego MPK 1A",
+            "lat": "50.054218",
+            "lng": "22.008866"
+        },
+        {
+            "name": "Żółkiewskiego 8A",
+            "lat": "50.044676",
+            "lng": "22.013565"
+        },
+        {
+            "name": "Żółkiewskiego 9A",
+            "lat": "50.044601",
+            "lng": "22.013349"
+        }
+    ]
+}

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string-array name="kolorNazwy">
+	<item>Czerwony</item>
+	<item>Ciemny</item>
+	<item>Jasny</item>
+</string-array>
+<string-array name="kolorWartosci">
+    <item>#ffa30000</item>
+    <item>#ff000000</item>
+    <item>#fff3f3f3</item>
+</string-array>
+<string-array name="mapaNazwy">
+	<item>Zwykła</item>
+	<item>Hybrydowa</item>
+	<item>Satelitarna</item>
+	<item>Terenowa</item>
+</string-array>
+<string-array name="mapaWartosci">
+    <item>normal</item>
+    <item>hybrid</item>
+    <item>satellite</item>
+    <item>terrain</item>
+</string-array>
+</resources>

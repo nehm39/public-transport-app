@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Menu główne -->
+
+    <string name="app_name">MPK Rzeszów</string>
+    <string name="etykieta_szukaj">Szukaj autobusu</string>
+    <string name="etykieta_rozklad_autobusow">Rozkład autobusów</string>
+    <string name="etykieta_rozklad_przystankow">Rozkład przystanków</string>
+    <string name="etykieta_mapa">Mapa</string>
+    <string name="etykieta_bilet">Kup bilet</string>
+    <string name="etykieta_ustawienia">Ustawienia</string>
+    <string name="etykieta_kontakt">Kontakt</string>
+    <string name="etykieta_wyjscie">Wyjście</string>
+
+    <!-- Menu -->
+
+    <string name="informacje">Informacje</string>
+    <string name="www">Strona WWW</string>
+    <string name="informacje_tresc">W razie problemów z aplikacją proszę pisać na adres e-mail:\nkontakt@mpk.mobile.rzeszow.pl
+        \n\nCopyright © 2013 - Patryk Siwiec, Szymon Gajewski.</string>
+
+    <!-- Kontakt -->
+    <string name="kontakt">Miejskie Przedsiębiorstwo Komunikacyjne – Rzeszów Spółka z o.o.
+    \nul. Lubelska 54
+    \n35-233 Rzeszów
+    \n\ntel. centrala: 17 86-60-400
+    \nSekretariat: 17 86-60-405
+    \nFax.: 17 86-60-419
+    \nDyspozytor: 17 86-60-323
+    \nDział reklamy: 17 86-60-511
+    \nWydział przewozów: 17 86-60-512
+    \nWynajem autobusów: 17 86-60-421
+    \n\nadres e-mail: firma@mpk.rzeszow.pl
+
+    \n\nKasa biletowa przy pl. Lisa Kuli 20
+    \nTel. 17 860 24 50
+    \nCzynna:
+    \n• od poniedziałku do piątku od 6:30 do 20:00
+    \n• w soboty od 7:00 do 14:00
+    \n• w niedzielę nieczynna.
+
+    \n\nKasa biletowa przy ul. Grottgera 22
+    \nTel. 17 860 24 51
+    \nCzynna:
+    \n• od poniedziałku do piątku od 6:30 do 20:00
+    \n• w soboty od 7:00 do 14:00
+    \n• w niedzielę nieczynna.
+
+    \n\nKasa biletowa przy ul. Trembeckiego 3
+    \nTel. 17 866 03 60
+    \nCzynna:
+    \n• od poniedziałku do piątku od 7:30 do 15:00
+    \n• w soboty i niedzielę nieczynna.
+</string>
+
+    <!-- Kup bilet -->
+    <string name="button_bilet1">Kup bilet</string>
+    <string name="bilet_tekst1">Wybierz rodzaj biletu:</string>
+    <string name="bilet_tekst2">Wybierz rodzaj ulgi:</string>
+    <string name="bilet_tekst3">Wybierz strefę przejazdu:</string>
+    <string name="bilet_tekst4">Aby kupić bilet należy nawiązać połączenie głosowe na odpowiedni numer telefonu (opłaty jak za połączenia na numery stacjonarne). Operatorem systemu jest CallPay. Aby założyć konto w systemie CallPay wejdź na stronę www.callpay.pl i postępuj zgodnie z instrukcjami na stronie.
+    \nPodczas kontroli Pasażer zostanie poproszony o nawiązanie połączenia z numerem podanym przez kontrolera. System CallPay na próbę nawiązania połączenia może zareagować następująco:
+    \n•  w przypadku Pasażera, który ma zakupiony bilet, połączenie jest bezpłatne i system CallPay dokona automatycznego rozłączenia połączenia w taki sposób, aby nie doszło do jego nawiązania. Po ok. 3 sekundach na telefon Pasażera przychodzi SMS potwierdzający zakup biletu zawierający wszystkie niezbędne dane takie jak rodzaj biletu, czas zakupu, ulga;
+    \n•  w przypadku Pasażera, który nie ma wykupionego biletu, połączenie jest płatne i system CallPay odbierze połączenie informując Pasażera, że nie dokonano zakupu usługi.
+    SMS z potwierdzeniem zakupionego biletu może być wysłany przez system CallPay (dla jednego biletu) dwukrotnie.\n
+    W przypadku, gdy Pasażer zakupił więcej niż jeden bilet, zobowiązany jest wykonać kolejne połączenia, dla których przyjdą kolejne potwierdzenia SMS.</string>
+    <string name="bilet_wybierz1">Wybierz rodzaj biletu.</string>
+    <string name="bilet_wybierz2">Wybierz rodzaj ulgi.</string>
+    <string name="bilet_wybierz3">Wybierz strefę przejazdu.</string>
+
+    <string-array name="bilet1">
+        <item>Jednoprzejazdowy</item>
+        <item>60-minutowy</item>
+        <item>Dobowy</item>
+        <item>Linia specjalna "L"</item>
+        <item>Przewóz bagażu lub psa</item>
+    </string-array>
+    <string-array name="bilet2">
+        <item>Bilet normalny</item>
+        <item>Bilet ustawowy</item>
+        <item>Bilet samorządowy</item>
+    </string-array>
+    <string-array name="bilet3">
+        <item>A</item>
+        <item>B</item>
+        <item>A+B</item>
+    </string-array>
+
+    <!-- Szukaj autobusu -->
+    <string name="spinner_default">Wybierz autobus</string>
+    <string name="speed">Prędkość</string>
+    <string name="updated_at">Ostatnia aktualizacja</string>
+
+    <!-- Mapa -->
+    <string name="przystanekName">Przystanek</string>
+    <string name="title_activity_rozklad_autobusow_activity2">RozkladAutobusowActivity2</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+
+</resources>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="wsiiz.projekt.mpkrzeszow"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <permission
+        android:name="wsiiz.projekt.mpkrzeszow.permission.MAPS_RECEIVE"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="wsiiz.projekt.mpkrzeszow.permission.MAPS_RECEIVE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <uses-sdk
+        android:minSdkVersion="9"
+        android:targetSdkVersion="17" />
+
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="wsiiz.projekt.mpkrzeszow.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="wsiiz.projekt.mpkrzeszow.SzukajActivity"
+            android:label="Szukaj autobusu" />
+        <activity
+            android:name="wsiiz.projekt.mpkrzeszow.RozkladAutobusowActivity"
+            android:label="Rozkład autobusów" />
+        <activity
+            android:name="wsiiz.projekt.mpkrzeszow.RozkladAutobusowActivity2"/>
+        <activity
+            android:name="wsiiz.projekt.mpkrzeszow.RozkladPrzystankowActivity"
+            android:label="Rozkład przystanków" />
+        <activity android:name="wsiiz.projekt.mpkrzeszow.RozkladPrzystankowActivity2" />
+        <activity
+            android:name="wsiiz.projekt.mpkrzeszow.MapaActivity"
+            android:label="Mapa" />
+        <activity
+            android:name="wsiiz.projekt.mpkrzeszow.BiletActivity"
+            android:label="Kup bilet" />
+        <activity
+            android:name="wsiiz.projekt.mpkrzeszow.UstawieniaActivity"
+            android:label="Ustawienia" />
+        <activity
+            android:name="wsiiz.projekt.mpkrzeszow.KontaktActivity"
+            android:label="Kontakt" />
+
+        <meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="AIzaSyBhXD-4zWN1NyWjYd0sm8wToddf8Z0aS44" />
+
+
+    </application>
+
+</manifest>

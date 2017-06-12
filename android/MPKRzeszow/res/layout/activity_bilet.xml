@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center_horizontal"
+    android:paddingLeft="0dp"
+    android:paddingRight="0dp" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="12dp"
+        android:paddingRight="12dp"
+        android:paddingTop="@dimen/activity_vertical_margin" >
+
+        <TextView
+            android:id="@+id/bilet_tekst1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingBottom="10dp"
+            android:text="@string/bilet_tekst1"
+            android:textSize="20sp" />
+
+        <Spinner
+            android:id="@+id/Spinner_bilet1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/bilet1"
+            android:prompt="@string/bilet_wybierz1" />
+
+        <TextView
+            android:id="@+id/bilet_tekst2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingBottom="10dp"
+            android:paddingTop="25dp"
+            android:text="@string/bilet_tekst2"
+            android:textSize="20sp" />
+
+        <Spinner
+            android:id="@+id/Spinner_bilet2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/bilet2"
+            android:prompt="@string/bilet_wybierz2" />
+
+        <TextView
+            android:id="@+id/bilet_tekst3"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingBottom="10dp"
+            android:paddingTop="25dp"
+            android:text="@string/bilet_tekst3"
+            android:textSize="20sp" />
+
+        <Spinner
+            android:id="@+id/Spinner_bilet3"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/bilet3"
+            android:prompt="@string/bilet_wybierz3" />
+
+        <TextView
+            android:id="@+id/cenabiletu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Obliczam"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/button_bilet1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/button_bilet1" />
+
+
+
+        <TextView
+            android:id="@+id/bilet_tekst4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:text="@string/bilet_tekst4"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textSize="10sp" />
+    </LinearLayout>
+
+</ScrollView>

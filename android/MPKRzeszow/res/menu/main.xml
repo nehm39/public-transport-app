@@ -1,0 +1,10 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/informacje"
+          android:title="@string/informacje"
+          android:orderInCategory="100"
+          android:showAsAction="never" />
+        <item android:id="@+id/www"
+          android:title="@string/www"
+          android:orderInCategory="100"
+          android:showAsAction="never" />
+</menu>
