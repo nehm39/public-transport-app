@@ -1,5 +1,5 @@
 # Description
-Application for public transport. Bus tracking, schedules, map, tickets. Project written for university assignment in 2013. It was my first project for Android so it's not very good. 
+Android application for public transport with simple PHP API. Bus tracking, schedules, map, tickets. Project written for university assignment in 2013. It was my first project for Android so it's not very good. 
 It was written in Eclipse.
 
 # Screenshots
